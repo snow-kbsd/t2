@@ -17,7 +17,12 @@
 	org.mozilla.javascript.ScriptableObject.getProperty(ScriptableObject.java:2314)
 	org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1529)
 	org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1522)
-	org.mozilla.javascript.gen._refname__2346._c_getUploadInfo_1(&lt;refname&gt;:5)
+	org.mozilla.javascript.gen._refname__2346._c_checkAppDependencies_2(&lt;refname&gt;:37)
+	org.mozilla.javascript.gen._refname__2346.call(&lt;refname&gt;)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2639)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
+	org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	org.mozilla.javascript.gen._refname__2346._c_getUploadInfo_1(&lt;refname&gt;:4)
 	org.mozilla.javascript.gen._refname__2346.call(&lt;refname&gt;)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2639)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
@@ -43,20 +48,20 @@
 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	java.lang.Thread.run(Thread.java:745)
 </example_stack_trace>
-        <script_name>ScopedAppVendorInfoObtainer</script_name>
+        <script_name>ScopedAppDependencyChecker</script_name>
         <source_scope display_value="Studio">5d9789f3eb51310007e48c1cf106fe9e</source_scope>
         <sys_class_name>sys_scope_script_access</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-01-29 22:18:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>60e56409c3911200ca27ff9c02d3ae59</sys_id>
+        <sys_id>b6b14b849f8112005ca47fc9c42e7021</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ScopedAppVendorInfoObtainer</sys_name>
+        <sys_name>ScopedAppDependencyChecker</sys_name>
         <sys_package display_value="test1" source="sn_test1">b2355c45c3911200ca27ff9c02d3ae61</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="test1">b2355c45c3911200ca27ff9c02d3ae61</sys_scope>
-        <sys_update_name>sys_scope_script_access_60e56409c3911200ca27ff9c02d3ae59</sys_update_name>
+        <sys_update_name>sys_scope_script_access_b6b14b849f8112005ca47fc9c42e7021</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-01-29 22:18:19</sys_updated_on>
         <target_scope display_value="Scoped App Author">893ea311d71321004f6a0eca5e6103e6</target_scope>
